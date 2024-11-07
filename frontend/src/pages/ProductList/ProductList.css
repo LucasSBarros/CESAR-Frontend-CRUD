@@ -1,0 +1,135 @@
+/* src/styles/ProductList.css */
+
+.table-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead tr {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.table th {
+  color: #000000;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #e6f0fa;
+}
+
+.table td {
+  color: #555;
+}
+
+/* Estilos para campos de entrada na tabela */
+.table input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilos para botões de ação */
+.update-button,
+.cancel-button {
+  padding: 6px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.update-button {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.update-button:hover {
+  background-color: #4cae4c;
+}
+
+.cancel-button {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+.cancel-button:hover {
+  background-color: #ec971f;
+}
+
+/* Estilos para botões de ação */
+.edit-button,
+.delete-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit-button {
+  background-color: #4a90e2;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.edit-button:hover {
+  background-color: #357abd;
+}
+
+.delete-button {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+/* Estilos para a célula que contém os botões de ação */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-buttons button {
+  margin-right: 5px;
+}
+
+/* Remove a margem direita do último botão */
+.action-buttons button:last-child {
+  margin-right: 0;
+}
