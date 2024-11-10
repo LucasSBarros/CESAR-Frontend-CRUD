@@ -50,7 +50,7 @@
 
 .update-button {
   background-color: #d0c9c0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .update-button:hover {
@@ -68,7 +68,7 @@
 
 .edit-button {
   background-color: #d0c9c0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .edit-button:hover {
