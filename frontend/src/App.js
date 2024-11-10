@@ -1,4 +1,3 @@
-// src/App.js
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -15,7 +14,7 @@ function App() {
     <Router>
       <nav>
         <NavLink
-          to="/cadastrar"
+          to="/"
           className={({ isActive }) => (isActive ? "active" : undefined)}
         >
           Cadastrar Produto
@@ -29,7 +28,7 @@ function App() {
       </nav>
       <div className="container">
         <Routes>
-          <Route path="/cadastrar" element={<ProductForm />} />
+          <Route path="/" element={<ProductForm />} />
           <Route path="/produtos" element={<ProductList />} />
         </Routes>
       </div>

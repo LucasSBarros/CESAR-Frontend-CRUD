@@ -1,44 +1,31 @@
-/* src/styles/App.css */
-
-/* Layout geral */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
+  background-color: #efead8;
+  color: #5f7161;
   margin: 0;
   padding: 0;
 }
 
-/* Estilos de navegação */
 nav {
   display: flex;
   justify-content: center;
-  background-color: #4a90e2;
+  background-color: #6d8b74;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-  color: #ffffff;
+  color: #efead8;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #f5f7fa;
+  color: #d0c9c0;
 }
 
 nav a.active {
-  color: #f5f7fa;
-  border-bottom: 2px solid #f5f7fa;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #d0c9c0;
+  border-bottom: 2px solid #d0c9c0;
 }

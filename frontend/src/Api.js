@@ -6,7 +6,6 @@ const request = async (url, options = {}) => {
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    // Se o status for 204 (No Content), não tenta analisar o JSON
     if (response.status === 204) {
       return null;
     }
